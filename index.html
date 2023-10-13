@@ -14,21 +14,113 @@
         <a href="#">Integrator Pathways</a>
         <a href="#">News</a>
         <a href="#">Plans</a>
+        <a href="#" class="phone">
+          <span class="phone-icon">📞</span>
+          <span class="phone-number">877-846-5649</span>
+        </a>
       </header>
     </div>
-  </body>
 
-  <div class="instruction">
-    <h2>
-      Select a plan based on the number of modules needed for your dealership.
-    </h2>
-  </div>
-
-  <div class="moduleGrid">
-    <div class="module1">
-      <h1>1 Module Plan</h1>
-      <h2>$205 / month</h2>
-      <h3>One-Time Fees</h3>
+    <div class="instruction">
+      <h3 class="words">
+        Select a plan based on the number of modules needed for your dealership.
+      </h3>
     </div>
-  </div>
+
+    <div class="moduleFlex">
+      <div class="module">
+        <div>
+          <h1 class="modulePlan">1 Module Plan</h1>
+          <h2 class="perMonth">$205 / month</h2>
+        </div>
+        <div>
+          <div class="marginBottomSpace">
+            <h3 class="oneTime">One-Time Fees</h3>
+          </div>
+          <p>Module Purchase (3 Module at $297)</p>
+          <p>Setup & Training Fee ($225) + Shipping($11)</p>
+          <p>Month-to-Month (no contract required)</p>
+          <button class="buyNow" data-price="205">Buy Now</button>
+        </div>
+      </div>
+      <div class="module">
+        <div>
+          <h1 class="modulePlan">2 Module Plan</h1>
+          <h2 class="perMonth">$220 / month</h2>
+        </div>
+        <div>
+          <div class="marginBottomSpace">
+            <h3 class="oneTime">One-Time Fees</h3>
+          </div>
+          <p>Module Purchase (1 Module at $297)</p>
+          <p>Setup & Training Fee ($225) + Shipping($11)</p>
+          <p>Month-to-Month (no contract required)</p>
+          <button class="buyNow" data-price="220">Buy Now</button>
+        </div>
+      </div>
+      <div class="module">
+        <div>
+          <h1 class="modulePlan">3 Module Plan</h1>
+          <h2 class="perMonth">$235 / month</h2>
+        </div>
+        <div>
+          <div class="marginBottomSpace">
+            <h3 class="oneTime">One-Time Fees</h3>
+          </div>
+          <p>Module Purchase (3 Module at $297)</p>
+          <p>Setup & Training Fee ($225) + Shipping($11)</p>
+          <p>Month-to-Month (no contract required)</p>
+          <button class="buyNow" data-price="235">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="needMore">
+      <div class="dropdown-container">
+        <h1 class="words">Need More Modules?</h1>
+        <div class="relative">
+          <button id="dropdownButton" class="dropdown-button">
+            <span class="truncate">Click here to select</span>
+            <span class="icon">&#9660;</span>
+          </button>
+          <ul class="dropdown-options">
+            <li class="option" tabindex="0" data-price="0">
+              Click here to select
+            </li>
+            <li class="option" tabindex="0" data-price="250">
+              4 Module Plan-$250/month (4 Modules at $396)
+            </li>
+            <li class="option" tabindex="0" data-price="265">
+              5 Module Plan-$265/month (5 Modules at $495)
+            </li>
+            <li class="option" tabindex="0" data-price="280">
+              6 Module Plan-$280/month (6 Modules at $594)
+            </li>
+            <li class="option" tabindex="0" data-price="295">
+              7 Module Plan-$295/month (7 Modules at $693)
+            </li>
+            <li class="option" tabindex="0" data-price="310">
+              8 Module Plan-$310/month (8 Modules at $792)
+            </li>
+            <li class="option" tabindex="0" data-price="325">
+              9 Module Plan-$325/month (9 Modules at $891)
+            </li>
+            <li class="option" tabindex="0" data-price="340">
+              10 Module Plan-$340/month (10 Modules at $990)
+            </li>
+            <li class="option" tabindex="0" data-price="370">
+              12 Module Plan-$370/month (12 Modules at $1188)
+            </li>
+            <li class="option" tabindex="0" data-price="415">
+              15 Module Plan-$415/month (15 Modules at $891)
+            </li>
+          </ul>
+
+          <button id="submitSelection" class="buyNow2">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

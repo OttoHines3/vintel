@@ -29,16 +29,190 @@ body {
   text-decoration: none;
 }
 
+.phone {
+  border-left: 2px solid white;
+}
+
+.phone-icon {
+  color: white;
+}
+
 .instruction {
   display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.8rem;
-  margin-left: 3rem;
+  flex-wrap: wrap;
+  margin-left: 15%;
   margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.words {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  font-weight: lighter;
+  align-self: start;
+}
+
+.moduleFlex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.module {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 5px;
+  padding-left: 25px;
+  width: 22rem;
+  height: 30rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.modulePlan {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: x-large;
+  margin: 0px;
+  padding: 0px;
+}
+
+.perMonth {
+  margin: 0px;
+}
+
+.oneTime {
+  color: #730202;
+  font-size: x-large;
+  margin-bottom: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: lighter;
 }
 
-.moduleGrid {
+.buyNow {
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  width: 90%;
+  height: 35px;
+  font-size: small;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.buyNow2 {
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+  width: 100px;
+  height: 35px;
+  font-size: small;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  width: 300px;
+}
+
+.needMore {
+  margin-left: 15%;
+
+  margin-top: 25px;
+}
+
+.marginBottomSpace {
+  margin-bottom: 30px;
+}
+
+select {
+  appearance: none;
+  background-color: white;
+  border-radius: 0px;
+  border: none;
+  width: 300px;
+  font-size: large;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+/* Styles for the dropdown container */
+.dropdown-container {
+  margin: 2rem;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+/* Styles for the dropdown button */
+.dropdown-button {
+  width: 350px;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  outline: none;
+}
+
+.dropdown-button:hover {
+  background-color: #d9d9d9;
+}
+
+/* Styles for the dropdown icon */
+.icon {
+  font-size: 16px;
+  color: #d9d9d9;
+}
+
+/* Styles for the dropdown options */
+.dropdown-options {
+  top: 100%;
+  left: 0;
+  width: 350px;
+  max-height: 400px;
+  background-color: #fff;
+  border: 2px solid #d9d9d9;
+  border-radius: 0px;
+  overflow-y: auto;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.option {
+  padding: 10px;
+  font-size: medium;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #333;
+  white-space: nowrap;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show the dropdown options when the dropdown button is clicked */
+.show-options {
+  display: block;
+}
+
+.truncate {
+  color: gray;
+}
+
+.relative {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-template-rows: 2;
+  grid-template-columns: 1;
+  row-gap: 20px;
 }
