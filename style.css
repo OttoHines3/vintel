@@ -229,6 +229,7 @@ select::-ms-expand {
   max-height: 400px;
   background-color: #fff;
   border: 2px solid #d9d9d9;
+  border-top: 2px solid #e8007f;
   border-radius: 0px;
   overflow-y: auto;
   display: none;
