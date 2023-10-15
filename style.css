@@ -65,6 +65,11 @@ body {
   gap: 2rem;
 }
 
+.checklist {
+  list-style-type: disc; /* You can change this to 'circle', 'square', or 'none' as desired */
+  padding-left: 20px; /* Adjust the left padding to control the spacing between the checkmark and text */
+}
+
 @media (max-width: 768px) {
   .instruction {
     margin: auto;
