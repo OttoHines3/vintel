@@ -1,5 +1,11 @@
+@font-face {
+  font-family: Lato;
+  src: url("fonts/Lato-Regular.ttf");
+}
+
 * {
   box-sizing: border-box;
+  font-family: Lato;
 }
 
 body {
@@ -102,7 +108,7 @@ body {
   justify-content: space-evenly;
   gap: 5px;
   padding-left: 25px;
-  width: 22rem;
+  width: 23rem;
   height: 30rem;
   border: 2px solid black;
   border-radius: 5px;
